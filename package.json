@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-instance-of",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test whether a value has in its prototype chain a specified constructor as a prototype property.",
   "license": "Apache-2.0",
   "author": {
