@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.instanceOf;
+})();
 })();
 </script>
 ```
@@ -129,6 +131,7 @@ var bool = instanceOf( bar, Foo );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = instanceOf( [], Array );
 // returns true
@@ -166,6 +169,7 @@ bool = instanceOf( {}, Array );
 bool = instanceOf( {}, Function );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -264,13 +268,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of/tree/umd
+[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of/tree/umd/tree/umd
 
-[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/umd
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/umd/tree/umd
 
-[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit/tree/umd
+[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit/tree/umd/tree/umd
 
-[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of/tree/umd
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
