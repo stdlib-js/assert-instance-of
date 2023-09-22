@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-instance-of",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Test whether a value has in its prototype chain a specified constructor as a prototype property.",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-format": "^0.0.3"
+    "@stdlib/string-format": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.0.8",
     "@stdlib/bench": "^0.0.12",
-    "@stdlib/number-ctor": "^0.0.7",
-    "@stdlib/object-ctor": "^0.0.1",
-    "@stdlib/utils-inherit": "^0.0.8",
+    "@stdlib/number-ctor": "^0.1.0",
+    "@stdlib/object-ctor": "^0.1.0",
+    "@stdlib/utils-inherit": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
