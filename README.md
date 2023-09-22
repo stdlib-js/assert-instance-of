@@ -18,6 +18,17 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # instanceOf
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
@@ -30,14 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-instance-of
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
+var instanceOf = require( '@stdlib/assert-instance-of' );
 ```
 
 #### instanceOf( value, constructor )
@@ -45,7 +72,7 @@ import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of
 Tests whether a `value` has in its prototype chain a specified `constructor` as a `prototype` property.
 
 ```javascript
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@deno/mod.js';
+var inherit = require( '@stdlib/utils-inherit' );
 
 function Foo() {
     return this;
@@ -98,8 +125,8 @@ var bool = instanceOf( bar, Foo );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
+var Number = require( '@stdlib/number-ctor' );
+var instanceOf = require( '@stdlib/assert-instance-of' );
 
 var bool = instanceOf( [], Array );
 // returns true
@@ -168,7 +195,7 @@ bool = instanceOf( {}, Function );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -198,8 +225,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-instance-of.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-instance-of
 
-[test-image]: https://github.com/stdlib-js/assert-instance-of/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-instance-of/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-instance-of/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/assert-instance-of/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-instance-of/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-instance-of?branch=main
@@ -230,13 +257,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of/tree/deno
+[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of
 
-[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/deno
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
 
-[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit/tree/deno
+[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit
 
-[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of/tree/deno
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of
 
 <!-- </related-links> -->
 
