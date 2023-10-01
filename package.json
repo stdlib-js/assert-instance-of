@@ -40,8 +40,8 @@
     "@stdlib/string-format": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/number-ctor": "^0.1.0",
     "@stdlib/object-ctor": "^0.1.0",
     "@stdlib/utils-inherit": "^0.1.0",
