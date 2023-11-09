@@ -41,38 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-instance-of
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-instanceOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var instanceOf = require( 'path/to/vendor/umd/assert-instance-of/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.instanceOf;
-})();
-</script>
+var instanceOf = require( '@stdlib/assert-instance-of' );
 ```
 
 #### instanceOf( value, constructor )
@@ -114,7 +106,13 @@ var bool = instanceOf( bar, Foo );
 
 -   While the prototype of an `object` created using object literal notion is `undefined`, the function returns `true` when provided an `object` literal and the `Object` constructor. This maintains consistent behavior with the `instanceof` operator.
 
+    <!-- FIXME: apparent issue with realms when linting doctest values -->
+
+    <!-- eslint-disable stdlib/doctest -->
+
     ```javascript
+    var Object = require( '@stdlib/object-ctor' );
+
     var bool = ( {} instanceof Object );
     // returns true
 
@@ -130,16 +128,17 @@ var bool = instanceOf( bar, Foo );
 
 ## Examples
 
+<!-- FIXME: apparent issue with realms when linting doctest values -->
+
+<!-- eslint-disable stdlib/doctest -->
+
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Number = require( '@stdlib/number-ctor' );
+var Object = require( '@stdlib/object-ctor' );
+var Function = require( '@stdlib/function-ctor' );
+var instanceOf = require( '@stdlib/assert-instance-of' );
 
 var bool = instanceOf( [], Array );
 // returns true
@@ -176,11 +175,6 @@ bool = instanceOf( {}, Array );
 
 bool = instanceOf( {}, Function );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -275,13 +269,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of/tree/umd
+[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of
 
-[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/umd
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
 
-[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit/tree/umd
+[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit
 
-[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of/tree/umd
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of
 
 <!-- </related-links> -->
 
