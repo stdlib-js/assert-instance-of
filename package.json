@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/number-ctor": "^0.1.1",
     "@stdlib/object-ctor": "^0.1.1",
     "@stdlib/utils-inherit": "^0.1.1",
