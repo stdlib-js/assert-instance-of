@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-instance-of/tags). For example,
+
+```javascript
 import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@v0.2.2-esm/index.mjs';
 ```
 
@@ -127,7 +132,7 @@ var bool = instanceOf( bar, Foo );
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
 import Function from 'https://cdn.jsdelivr.net/gh/stdlib-js/function-ctor@esm/index.mjs';
-import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@v0.2.2-esm/index.mjs';
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@esm/index.mjs';
 
 var bool = instanceOf( [], Array );
 // returns true
