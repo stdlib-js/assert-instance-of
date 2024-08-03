@@ -2,40 +2,6 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
-
-## Unreleased (2024-08-01)
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
@@ -60,7 +26,31 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`14bdb9c`](https://github.com/stdlib-js/stdlib/commit/14bdb9c0279ede04563b4699d4c3061c52ca5fa1) - **style:** disable lint rule _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -80,7 +70,54 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-22)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`5200ce2`](https://github.com/stdlib-js/stdlib/commit/5200ce2447b32d7a8d351daa5b1868194878d7be) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`5200ce2`](https://github.com/stdlib-js/stdlib/commit/5200ce2447b32d7a8d351daa5b1868194878d7be): update minimum TypeScript version
+-   [`5200ce2`](https://github.com/stdlib-js/stdlib/commit/5200ce2447b32d7a8d351daa5b1868194878d7be): update minimum TypeScript version to 4.1 
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`5200ce2`](https://github.com/stdlib-js/stdlib/commit/5200ce2447b32d7a8d351daa5b1868194878d7be) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
