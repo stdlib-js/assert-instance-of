@@ -2,6 +2,52 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-11-09)
+
+<section class="features">
+
+### Features
+
+-   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - add support for `Symbol.hasInstance`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - **feat:** add support for `Symbol.hasInstance` _(by Athan Reines)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)

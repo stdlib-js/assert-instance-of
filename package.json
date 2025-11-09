@@ -37,11 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/assert-has-has-instance-symbol-support": "github:stdlib-js/assert-has-has-instance-symbol-support#main",
     "@stdlib/string-format": "^0.2.2",
+    "@stdlib/symbol-has-instance": "github:stdlib-js/symbol-has-instance#main",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/boolean-ctor": "^0.2.2",
+    "@stdlib/function-ctor": "^0.2.2",
     "@stdlib/number-ctor": "^0.2.2",
     "@stdlib/object-ctor": "^0.2.1",
     "@stdlib/utils-inherit": "^0.2.2",
