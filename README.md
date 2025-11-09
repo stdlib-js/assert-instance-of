@@ -41,32 +41,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-instance-of
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var instanceOf = require( '@stdlib/assert-instance-of' );
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
 ```
 
 #### instanceOf( value, constructor )
@@ -74,7 +56,7 @@ var instanceOf = require( '@stdlib/assert-instance-of' );
 Tests whether a `value` has in its prototype chain a specified `constructor` as a `prototype` property.
 
 ```javascript
-var inherit = require( '@stdlib/utils-inherit' );
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@deno/mod.js';
 
 function Foo() {
     return this;
@@ -113,7 +95,7 @@ var bool = instanceOf( bar, Foo );
     <!-- eslint-disable stdlib/doctest -->
 
     ```javascript
-    var Object = require( '@stdlib/object-ctor' );
+    import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
 
     var bool = ( {} instanceof Object );
     // returns true
@@ -137,10 +119,10 @@ var bool = instanceOf( bar, Foo );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Number = require( '@stdlib/number-ctor' );
-var Object = require( '@stdlib/object-ctor' );
-var Function = require( '@stdlib/function-ctor' );
-var instanceOf = require( '@stdlib/assert-instance-of' );
+import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
+import Function from 'https://cdn.jsdelivr.net/gh/stdlib-js/function-ctor@deno/mod.js';
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
 
 var bool = instanceOf( [], Array );
 // returns true
@@ -209,7 +191,7 @@ bool = instanceOf( {}, Function );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -274,13 +256,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of
+[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert-is-prototype-of/tree/deno
 
-[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/deno
 
-[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit
+[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit/tree/deno
 
-[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of/tree/deno
 
 <!-- </related-links> -->
 
