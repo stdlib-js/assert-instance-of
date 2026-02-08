@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@esm/index.mjs';
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@v0.3.1-esm/index.mjs';
 ```
 
 #### instanceOf( value, constructor )
@@ -127,7 +127,7 @@ var bool = instanceOf( bar, Foo );
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
 import Function from 'https://cdn.jsdelivr.net/gh/stdlib-js/function-ctor@esm/index.mjs';
-import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@esm/index.mjs';
+import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@v0.3.1-esm/index.mjs';
 
 var bool = instanceOf( [], Array );
 // returns true
