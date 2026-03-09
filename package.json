@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-has-instance-symbol-support": "^0.1.0",
+    "@stdlib/assert-has-has-instance-symbol-support": "^0.1.1",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/symbol-has-instance": "^0.1.0",
+    "@stdlib/symbol-has-instance": "^0.1.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
@@ -53,7 +53,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
